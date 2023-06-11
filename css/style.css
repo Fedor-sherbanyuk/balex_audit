@@ -322,7 +322,7 @@ li>span{
 }
 
 @media screen and (max-width: 770px) and
-(min-width: 400px) {
+(min-width: 300px) {
     img {
         vertical-align: middle;
         margin-right: 100px;
