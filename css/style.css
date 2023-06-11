@@ -134,8 +134,19 @@ li>span{
     padding: 20px;
     color: red;
     font-size: 30px;
+
+}
+.carousel-item-wrapper {
+    margin-right: 10px; /* Регулируйте отступ здесь */
 }
 
+.carousel-item:last-child .carousel-item-wrapper {
+    margin-right: 0; /* Убираем отступ для последнего слайда */
+}
+
+/*.slide {*/
+/*    display: none;*/
+/*}*/
 /*main*/
 /*Features*/
 .text{
@@ -323,6 +334,13 @@ li>span{
 
 @media screen and (max-width: 770px) and
 (min-width: 300px) {
+    .wrapper{
+        margin: 0 10px 0 0;
+    }
+    .wrap{
+        flex-wrap: wrap;
+    }
+
     img {
         vertical-align: middle;
         margin-right: 100px;
@@ -354,6 +372,13 @@ li>span{
     }
     @media screen and (max-width: 570px) and
     (min-width: 400px) {
+        .h1{
+            margin: 0 0 0 0;
+            font-size: 20px;
+        }
+        .slide {
+            display: none;
+        }
         .btn:before {
             content: "";
             background: repeating-linear-gradient(to right, transparent 0, transparent 3px, gray 3px, red 10px);
