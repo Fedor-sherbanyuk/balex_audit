@@ -39,7 +39,7 @@ body{
     font-family: 'ralewayblack';
     font-size: 72px;
     margin-top: 80px;
-    color: white;
+    color: gray();
     width: 100vw;
 }
 .full_active_text {
@@ -105,13 +105,13 @@ body{
     transition: all 0.4s ease 0s;
     font-size: 40px;
     font-style: italic;
-    color: white;
+    color: gray();
 
 }
 .banner_text4{
     font-size: 40px;
     font-style: italic;
-    color: white;
+    color: gray();
     text-transform: uppercase;
 }
 .banner_text3.full_active_text{
@@ -121,7 +121,7 @@ body{
 }
 h3{
     text-transform: uppercase;
-    color: white;
+    color: gray();
     /*color:#ffc75d ;*/
     font-size: 40px;
 }
@@ -151,7 +151,7 @@ li>span{
 /*Features*/
 .text{
     font-size: 50px;
-    color: white;
+    color: gray();
 }
 
 .photo_feature_text {
@@ -333,7 +333,7 @@ li>span{
 }
 
 @media screen and (max-width: 770px) and
-(min-width: 300px) {
+(min-width: 200px) {
     .wrapper{
         margin: 0 10px 0 0;
     }
@@ -371,7 +371,7 @@ li>span{
         transform: rotateZ(138deg);
     }
     @media screen and (max-width: 570px) and
-    (min-width: 400px) {
+    (min-width: 200px) {
         .h1{
             margin: 0 0 0 0;
             font-size: 20px;
@@ -423,4 +423,42 @@ li>span{
             transform: rotateZ(138deg);
         }
     }
+}
+@media screen and (max-width: 420px) and
+(min-width: 200px) {
+    .h1{
+        font-size: 14px;
+    }
+    .text {
+        font-size: 30px;
+    }
+    .flexNew{
+        display: flex;
+        justify-content: center;
+    }
+    .btn2, .btn3 {
+        font-size: 14px;
+        text-align: right;
+    }
+    .btn2:before {
+        top: 81.5%;
+    }
+}
+@media screen and (max-width: 370px) and
+(min-width: 200px) {
+    .btn2, .btn3 {
+        font-size: 12px;
+        text-align: right;
+    }
+    .btn2:before {
+        top: 79%;
+        left: 110%;
+    }
+    .flexNew{
+        display: flex;
+        justify-content: space-around;
+    }
+
+
+
 }
