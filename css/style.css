@@ -458,6 +458,15 @@ li>span{
         display: flex;
         justify-content: space-around;
     }
+    .text{
+        font-size: 25px;
+    }
+    .wraper{
+        flex-wrap: wrap;
+    }
+    .nowrap{
+        flex-wrap: nowrap;
+    }
 
 
 
