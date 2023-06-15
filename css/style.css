@@ -3,7 +3,7 @@
     /*position: fixed;*/
     top: 0;
     left: 0;
-    width: 100%;
+    width: 99%;
     height: 100%;
     z-index: -1;
 }
@@ -26,6 +26,9 @@ video {
 body{
 background:  linear-gradient(to top, #ffe5b4 0%, #ffea85 20%, #ffe5b4 100%);
 
+}
+.marginTop{
+    margin-top: 80px;
 }
 .marginMinus{
     margin-top: -20px;
@@ -240,7 +243,7 @@ li>span{
     background: no-repeat linear-gradient(to top, #af1c1a 0%, #af1c1a 100%);
     border-radius: 4px;
     position: relative;
-    margin: 0 0 0 0;
+
     /*width: 101px;*/
     color: #ffffff;
     font-family: 'arialMt',sans-serif;
@@ -256,7 +259,7 @@ li>span{
     background: no-repeat linear-gradient(to top, red 0%, #af1c1a 100%);
     border-radius: 4px;
     position: relative;
-    margin: 0 0 0 0;
+    margin: 0 0 0 220px;
     /*width: 101px;*/
     color: #ffffff;
     font-family: 'arialMt',sans-serif;
@@ -272,16 +275,19 @@ li>span{
 .btn:after{
     content: "";
     background: repeating-linear-gradient(to right, transparent 0, transparent 3px, gray 3px, red 10px);
-    left: 88%;
+    left: 48%;
     top: 100%;
     width: 6px;
     height: 40px;
     position: absolute;
 }
+.paddingNew{
+    padding: 10px;
+}
 .btn2:after{
     content: "";
     background: repeating-linear-gradient(to right, transparent 0, transparent 3px, gray 3px, red 10px);
-    left: 48%;
+    left: 38%;
     top: 100%;
     width: 6px;
     height: 60px;
@@ -290,21 +296,21 @@ li>span{
 .btn2:before{
     content: "";
     background: repeating-linear-gradient(to right, transparent 0, transparent 3px, gray 3px, red 10px);
-    left: 98%;
+    left: 58%;
     top: 98%;
     width: 6px;
     height: 60px;
     position: absolute;
 }
-.btn:before{
-    content: "";
-    background: repeating-linear-gradient(to right, transparent 0, transparent 3px, gray 3px, red 10px);
-    left: 48%;
-    top: 100%;
-    width: 6px;
-    height: 40px;
-    position: absolute;
-}
+/*.btn:before{*/
+/*    content: "";*/
+/*    background: repeating-linear-gradient(to right, transparent 0, transparent 3px, gray 3px, red 10px);*/
+/*    left: 48%;*/
+/*    top: 100%;*/
+/*    width: 6px;*/
+/*    height: 40px;*/
+/*    position: absolute;*/
+/*}*/
 
 .btn:hover{
     background: linear-gradient(to top, red 0%, yellow 100%);
@@ -313,6 +319,9 @@ li>span{
 .btn2:hover,.btn3:hover{
     background: linear-gradient(to right, yellow 0%, red 100%);
 
+}
+li>span:first-child{
+    padding: 0 0 0 0;
 }
 
 @media screen and (max-width: 1150px) and
