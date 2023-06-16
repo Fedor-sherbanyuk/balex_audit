@@ -30,12 +30,34 @@ background:  linear-gradient(to top, #ffe5b4 0%, #ffea85 20%, #ffe5b4 100%);
 .marginTop{
     margin-top: 80px;
 }
+.marginTop_30{
+    margin-top: 30px;
+}
+.marginTop_15{
+    margin-top: 15px;
+}
 .marginMinus{
     margin-top: -20px;
 }
+.marginNone{
+    margin: 0 0 0 0;
+}
+.marginRight{
+    margin: 10px 0 0 30px;
+}
+.textSize{
+    font-size: 50px;
+}
+.shadow-text {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.shadow-textNone {
+    text-shadow: none;
+}
 .banner {
     position: relative;
-    font-family: 'ralewayblack';
+    font-family: "Open Sans", serif;
     font-size: 72px;
     margin-top: 80px;
     color: gray();
@@ -50,7 +72,7 @@ background:  linear-gradient(to top, #ffe5b4 0%, #ffea85 20%, #ffe5b4 100%);
     opacity: 0;
     transition: all 0.6s ease 0s;
     font-size: 50px;
-    font-style: italic;
+    /*font-style: italic;*/
 }
 .banner_text2{
     transform: translate(0px,120%);
@@ -102,14 +124,14 @@ background:  linear-gradient(to top, #ffe5b4 0%, #ffea85 20%, #ffe5b4 100%);
     transform: translate(0px,120%);
     opacity: 0;
     transition: all 0.4s ease 0s;
-    font-size: 40px;
-    font-style: italic;
+    font-size: 50px;
+    /*font-style: italic;*/
     color: gray();
 
 }
 .banner_text4{
     font-size: 40px;
-    font-style: italic;
+    /*font-style: italic;*/
     color: gray();
     text-transform: uppercase;
 }
@@ -126,14 +148,14 @@ h3{
 }
 h3>span{
     padding: 20px;
-    color: red;
+    color: black;
     font-size: 30px;
 }
 li>span{
     padding: 20px;
-    color: red;
+    color: black;
     font-size: 30px;
-
+    margin: 0 0 0 0;
 }
 .carousel-item-wrapper {
     margin-right: 10px; /* Регулируйте отступ здесь */
@@ -142,7 +164,11 @@ li>span{
 .carousel-item:last-child .carousel-item-wrapper {
     margin-right: 0; /* Убираем отступ для последнего слайда */
 }
-
+.textFont{
+    font-size: 35px;
+    margin: 0 0 20px 0;
+    color: black;
+}
 /*.slide {*/
 /*    display: none;*/
 /*}*/
@@ -161,7 +187,7 @@ li>span{
     align-self: center;
     /*line-height: 23px;*/
     color: #ffffff;
-    font-family: 'Raleway', sans-serif;
+    font-family: "Open Sans", serif;
     font-size: 30px;
     font-weight: 400;
     font-style: normal;
@@ -188,7 +214,7 @@ li>span{
     margin-top: 24px;
     width: 450px;
     color: #ffffff;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Open Sans", serif;
     font-size: 16px;
     font-weight: 300;
     font-style: normal;
@@ -214,7 +240,7 @@ li>span{
     line-height: normal;
     width: 455px;
     color: #ffffff;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Open Sans", serif;
     font-size: 16px;
     font-weight: 300;
     font-style: normal;
@@ -239,14 +265,14 @@ li>span{
     transition: all 1s ease 0s;
 }
 
-.btn {
-    background: no-repeat linear-gradient(to top, #af1c1a 0%, #af1c1a 100%);
+.btn5 {
+    background: no-repeat linear-gradient(to top, #4b803b 0%, #4b803b 100%);
     border-radius: 4px;
     position: relative;
 
     /*width: 101px;*/
     color: #ffffff;
-    font-family: 'arialMt',sans-serif;
+    font-family: "Open Sans", serif;
     font-size: 30px;
     font-weight: 400;
     text-align: center;
@@ -256,13 +282,13 @@ li>span{
     text-transform: uppercase;
 }
 .btn2,.btn3 {
-    background: no-repeat linear-gradient(to top, red 0%, #af1c1a 100%);
+    background: no-repeat linear-gradient(to top, #4b803b 0%, #4b803b 100%);
     border-radius: 4px;
     position: relative;
     margin: 0 0 0 220px;
     /*width: 101px;*/
     color: #ffffff;
-    font-family: 'arialMt',sans-serif;
+    font-family: "Open Sans", serif;
     font-size: 26px;
     font-weight: 400;
     text-align: center;
@@ -272,10 +298,10 @@ li>span{
     text-transform: uppercase;
 }
 
-.btn:after{
+.btn2:after{
     content: "";
     background: repeating-linear-gradient(to right, transparent 0, transparent 3px, gray 3px, red 10px);
-    left: 48%;
+    left: 75%;
     top: 100%;
     width: 6px;
     height: 40px;
@@ -284,7 +310,7 @@ li>span{
 .paddingNew{
     padding: 10px;
 }
-.btn2:after{
+.btn5:after{
     content: "";
     background: repeating-linear-gradient(to right, transparent 0, transparent 3px, gray 3px, red 10px);
     left: 38%;
@@ -293,7 +319,7 @@ li>span{
     height: 60px;
     position: absolute;
 }
-.btn2:before{
+.btn5:before{
     content: "";
     background: repeating-linear-gradient(to right, transparent 0, transparent 3px, gray 3px, red 10px);
     left: 58%;
@@ -302,17 +328,17 @@ li>span{
     height: 60px;
     position: absolute;
 }
-/*.btn:before{*/
-/*    content: "";*/
-/*    background: repeating-linear-gradient(to right, transparent 0, transparent 3px, gray 3px, red 10px);*/
-/*    left: 48%;*/
-/*    top: 100%;*/
-/*    width: 6px;*/
-/*    height: 40px;*/
-/*    position: absolute;*/
-/*}*/
+.btn2:before{
+    content: "";
+    background: repeating-linear-gradient(to right, transparent 0, transparent 3px, gray 3px, red 10px);
+    left: 18%;
+    top: 100%;
+    width: 6px;
+    height: 40px;
+    position: absolute;
+}
 
-.btn:hover{
+.btn5:hover{
     background: linear-gradient(to top, red 0%, yellow 100%);
 
 }
@@ -472,7 +498,4 @@ li>span:first-child{
     .nowrap{
         flex-wrap: nowrap;
     }
-
-
-
 }
