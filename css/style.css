@@ -19,17 +19,24 @@
 }
 
 #loading-overlay {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background: url("../video/fasad.png") no-repeat;
+    background-color: #000;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #fff;
-    font-size: 24px;
+    z-index: 9999;
+}
+
+#loading-overlay img {
+    width: 200px; /* Измените размеры в соответствии с вашей анимацией или картинкой */
+}
+
+#content {
+    display: block;
 }
 
 video {
@@ -84,7 +91,7 @@ max-width: 98.5vw;
     font-size: 72px;
     margin-top: 80px;
     color: gray();
-    width: 100vw;
+    width: auto;
 }
 .full_active_text {
     opacity: 1;
@@ -136,9 +143,9 @@ max-width: 98.5vw;
         border: 0;
     }
 }
-.features {
-    width: 90vw;
-}
+/*.features {*/
+/*    width: 90vw;*/
+/*}*/
 .full_active_text {
     opacity: 1;
     transform: translate(0px,0px);
@@ -179,6 +186,9 @@ li>span{
     color: black;
     font-size: 30px;
     margin: 0 0 0 0;
+}
+.m-4{
+    margin: 0.9rem!important;
 }
 .carousel-item-wrapper {
     margin-right: 10px; /* Регулируйте отступ здесь */

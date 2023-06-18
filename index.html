@@ -13,12 +13,14 @@
     <title>Balex verification</title>
 </head>
 <body>
-
+<div id="loading-overlay">
+    <!-- Здесь разместите вашу анимацию или картинку для заставки -->
+    <img src="video/fasad.png" alt="image fasad">
+</div>
 <div class="video-background">
     <div class="video-wrap">
-        <div id="loading-overlay">
-        </div>
-        <video autoplay loop muted>
+
+        <video id="video-player" autoplay loop muted>
             <source src="video/balexNew.mp4">
         </video>
     </div>
@@ -35,21 +37,21 @@
         </h2>
     </div>
 
-    <div class="container imgBackground">
-        <section class="banner container">
-            <h2 class="m-5 col-sm-10 alert-primary d-flex justify-content-center  banner_text1 activeNew anim-no-hide">
+    <div id="content" style="display: none;" class="container">
+        <section class="banner container imgBackground">
+            <h2 class="m-5 col-sm-10 alert-primary d-flex justify-content-center imgBackground banner_text1 activeNew anim-no-hide">
                 INTERNAL AUDIT DEPARTMENT
             </h2>
-            <p class=" banner_text2 activeNew anim-no-hide"> Презентация Отдела внутреннего аудита</p>
+            <p class=" banner_text2 activeNew anim-no-hide imgBackground"> Презентация Отдела внутреннего аудита</p>
             <!--            <p class=" banner_text2 activeNew anim-no-hide m-5"> У нас нет цели только путь!</p>-->
         </section>
-        <section class="features">
-            <h2 class="m-5 col-sm-10 alert-primary d-flex justify-content-center  banner_text3 activeNew anim-no-hide">
-                Ваши лица перестанут улыбаться!</h2>
-            <div class="container">
-                <h3 class="shadow-text">Цель отдела:<span class="shadow-textNone">выявить риски и усовершенствовать процессы.</span>
+        <section class="features imgBackground">
+            <h2 class="m-5 col-sm-10 alert-primary d-flex justify-content-center  banner_text3 activeNew anim-no-hide ">
+                Наш девиз: ваши лица перестанут улыбаться!</h2>
+            <div class="container ">
+                <h3 class="shadow-text imgBackground">Цель отдела:<span class="shadow-textNone">выявить риски и усовершенствовать процессы.</span>
                 </h3>
-                <ul class=" text m-5 shadow-text">Задачи аудиторского отдела
+                <ul class=" text m-5 shadow-text imgBackground">Задачи аудиторского отдела
                     <li class="activeNew text full_active_text3 m-2 p-5 shadow-text"> Оценка эффективности контрольных
                         механизмов:
                         <span class="shadow-textNone">Внутренний аудитор должен оценивать системы внутреннего контроля организации,
@@ -88,7 +90,7 @@
                 </ul>
             </div>
         </section>
-        <section class="structure">
+        <section class="structure imgBackground">
             <h2 class="m-5 col-sm-12 alert-primary d-flex justify-content-center  banner_text3 activeNew anim-no-hide shadow-text">
                 Структура и функционал Отдела внутреннего аудита</h2>
             <div class="container mx-auto">
@@ -113,7 +115,7 @@
             </div>
 
         </section>
-        <section class="KRO">
+        <section class="KRO imgBackground">
             <div class="container">
                 <ul class="text m-5 shadow-text">Начальник аудита
                     <li class="activeNew text full_active_text3  wraper m-5 shadow-textNone"> Задачи начальника аудита:
@@ -243,7 +245,7 @@
                 </ul>
             </div>
         </section>
-        <p class=" banner_text4 activeNew anim-no-hide shadow-text"> Наша цель: Ваши лица перестанут улыбаться!</p>
+        <p class=" banner_text4 activeNew anim-no-hide shadow-text imgBackground"> Наш девиз в ответ на ваш — поломаешься и дашь!</p>
 
     </div>
 <div id="myCarousel" class="carousel slide marginTop_30 carouselNew" data-ride="carousel">

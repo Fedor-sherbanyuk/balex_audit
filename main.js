@@ -71,15 +71,12 @@ setInterval(switchSlide, 1800); // Интервал 0.8 секунды (800 ми
 window.addEventListener('DOMContentLoaded', function() {
     const videoPlayer = document.getElementById('video-player');
     const loadingOverlay = document.getElementById('loading-overlay');
+    const content = document.getElementById('content');
 
     videoPlayer.addEventListener('loadedmetadata', function() {
-        // Видео загружено, скрываем заставку
+        // Видео загружено, скрываем заставку и отображаем содержимое
         loadingOverlay.style.display = 'none';
-    });
-
-    videoPlayer.addEventListener('loadstart', function() {
-        // Начало загрузки видео, показываем заставку
-        loadingOverlay.style.display = 'flex';
+        content.style.display = 'block';
     });
 });
 
