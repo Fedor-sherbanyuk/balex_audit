@@ -1,31 +1,54 @@
 /*!*main*!*/
 .video-background {
-    /*position: fixed;*/
+    position: fixed;
     top: 0;
     left: 0;
-    width: 99%;
+    width: 99vw;
     height: 100%;
+    overflow: hidden;
     z-index: -1;
 }
 
 .video-wrap {
     position: absolute;
-    bottom: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: auto;
+}
+
+#loading-overlay {
+    position: absolute;
+    top: 0;
     left: 0;
     width: 100%;
-    /*height: 30%;*/
-    /*overflow: hidden;*/
+    height: 100%;
+    background: url("../video/fasad.png") no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 24px;
 }
 
 video {
     width: 100%;
     height: auto;
-    transform: translateY(0%);
+}
+.carouselNew{
+    position: relative;
+    background: linear-gradient(to top, gray 0%, #ffea85 20%, gray 100%);
 }
 
-body{
-background:  linear-gradient(to top, #ffe5b4 0%, #ffea85 20%, #ffe5b4 100%);
 
+body{
+max-width: 98.5vw;
+/*background:  linear-gradient(to top, #ffe5b4 0%, #ffea85 20%, #ffe5b4 100%);*/
+
+}
+.imgBackground{
+    background: white;
 }
 .marginTop{
     margin-top: 80px;

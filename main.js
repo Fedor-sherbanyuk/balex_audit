@@ -65,9 +65,23 @@ function switchSlide() {
     }
 }
 
+
 // Периодический вызов функции для переключения слайдов
 setInterval(switchSlide, 1800); // Интервал 0.8 секунды (800 миллисекунд)
+window.addEventListener('DOMContentLoaded', function() {
+    const videoPlayer = document.getElementById('video-player');
+    const loadingOverlay = document.getElementById('loading-overlay');
 
+    videoPlayer.addEventListener('loadedmetadata', function() {
+        // Видео загружено, скрываем заставку
+        loadingOverlay.style.display = 'none';
+    });
+
+    videoPlayer.addEventListener('loadstart', function() {
+        // Начало загрузки видео, показываем заставку
+        loadingOverlay.style.display = 'flex';
+    });
+});
 
 
 //
