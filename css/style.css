@@ -484,7 +484,14 @@ li>span:first-child{
     img {
         border: 0;
     }
-
+    .banner_text3{
+        text-align: center;
+        width: 450px;
+    }
+    .banner_text2 {
+        text-align: center;
+        width: 450px;
+    }
     /*.btn2:before {*/
     /*    content: "";*/
     /*    background: repeating-linear-gradient(to right, transparent 0, transparent 3px, gray 3px, red 10px);*/
@@ -536,7 +543,7 @@ li>span:first-child{
         /*}*/
         .btn2,.btn3{
             font-size: 18px;
-        text-align: right;
+        text-align: center;
         }
         /*.btn2:before {*/
         /*    content: "";*/
