@@ -58,7 +58,7 @@ max-width: 98.5vw;
     background: linear-gradient(to top, #ffea85 0%, #ffea85 20%, white 100%);
 }
 .marginTop{
-    margin-top: 80px;
+    margin-top: 140px;
 }
 .marginTop_30{
     margin-top: 30px;
@@ -530,6 +530,10 @@ li>span:first-child{
         .banner_text1,.banner_text3,.banner_text4, h3{
             font-size: 30px;
         }
+        .banner_text3{
+            text-align: center;
+            width: 450px;
+        }
         h3>span, li>span{
             padding: 15px;
             font-size: 20px;
@@ -555,6 +559,17 @@ li>span:first-child{
         /*    position: absolute;*/
         /*    transform: rotateZ(138deg);*/
         /*}*/
+}
+@media screen and (max-width: 490px) and
+(min-width: 200px) {
+    .banner_text3{
+        font-size: 20px;
+        text-align: center;
+        width: 350px;
+    }
+    .paddingNew{
+        font-size: 12px;
+    }
 }
 @media screen and (max-width: 420px) and
 (min-width: 200px) {
