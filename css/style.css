@@ -567,29 +567,72 @@ li>span:first-child{
         text-align: center;
         width: 350px;
     }
+    .banner_text1 {
+        font-size: 30px;
+        text-align: center;
+    }
+    .banner_text2{
+        font-size: 30px;
+        width: 350px;
+        text-align: center;
+    }
     .paddingNew{
         font-size: 12px;
     }
 }
+@media screen and (max-width: 435px) and
+(min-width: 200px) {
+    .textFont{
+        font-size: 25px;
+    }
+    h3{
+        font-size: 25px;
+    }
+    .paddingNew {
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 390px) and
+(min-width: 200px) {
+    h3{
+        font-size: 20px;
+        padding: 20px;
+    }
+    .textFont {
+        font-size: 20px;
+    }
+}
 @media screen and (max-width: 420px) and
 (min-width: 200px) {
-    .h1{
+    .h1 {
         font-size: 14px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    h3>span, li>span {
+        font-size: 15px;
     }
     .text {
         font-size: 30px;
     }
-    .flexNew{
+
+    .flexNew {
         display: flex;
         justify-content: center;
     }
+
     .btn2, .btn3 {
         font-size: 14px;
         text-align: right;
     }
-    /*.btn2:before {*/
-    /*    top: 81.5%;*/
-    /*}*/
+
+    .btn2:before {
+        left: 8%;
+        /*.btn2:before {*/
+        /*    top: 81.5%;*/
+        /*}*/
+    }
 }
 @media screen and (max-width: 370px) and
 (min-width: 200px) {
@@ -613,5 +656,42 @@ li>span:first-child{
     }
     .nowrap{
         flex-wrap: nowrap;
+    }
+    h3 {
+        font-size: 16px;
+    }
+    h3>span, li>span {
+        font-size: 12px;
+    }
+    .banner_text2 {
+        font-size: 20px;
+        width: 280px;
+    }
+    .btn2:before {
+        left: 0%;
+    }
+    .btn5:after {
+        left: 68%;
+    }
+}
+@media screen and (max-width: 370px) and
+(min-width: 200px) {
+    .textFont{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 330px) and
+(min-width: 200px) {
+    h3 {
+        font-size: 14px;
+    }
+    h3>span, li>span {
+        font-size: 10px;
+    }
+    .btn2, .btn3 {
+        margin: 0 0 0 100px;
+    }
+    .btn2:before {
+        left: 5%;
     }
 }
