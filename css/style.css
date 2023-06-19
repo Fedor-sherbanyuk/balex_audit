@@ -55,7 +55,7 @@ max-width: 98.5vw;
 
 }
 .imgBackground{
-    background: white;
+    background: linear-gradient(to top, #ffea85 0%, #ffea85 20%, white 100%);
 }
 .marginTop{
     margin-top: 80px;
@@ -405,7 +405,7 @@ li>span:first-child{
         font-size: 35px;
     }
     .banner_text3 {
-        font-size: 30px;
+        font-size: 25px;
     }
     h3 {
         font-size: 30px;
@@ -435,7 +435,7 @@ li>span:first-child{
         padding: 1rem!important;
     }
     .m-2{
-        margin: 3rem !important;
+        margin: 1.5rem !important;
     }
     .btn2, .btn3 {
         margin: 0 0 0 120px;
@@ -454,10 +454,11 @@ li>span:first-child{
 }
 @media screen and (max-width: 770px) and
 (min-width: 200px) {
-    .wrapper{
+    .wrapper {
         margin: 0 10px 0 0;
     }
-    .wrap{
+
+    .wrap {
         flex-wrap: wrap;
     }
 
@@ -465,14 +466,17 @@ li>span:first-child{
         vertical-align: middle;
         margin-right: 100px;
     }
+
     .header__logo {
         max-width: 70%;
         float: left;
     }
+
     .header__logo img {
         max-width: 100%;
         width: auto;
     }
+
     .header__logo__norm {
         height: 86px;
     }
@@ -480,16 +484,18 @@ li>span:first-child{
     img {
         border: 0;
     }
-    .btn2:before {
-        content: "";
-        background: repeating-linear-gradient(to right, transparent 0, transparent 3px, gray 3px, red 10px);
-        left: 105%;
-        top: 87%;
-        width: 6px;
-        height: 78px;
-        position: absolute;
-        transform: rotateZ(138deg);
-    }
+
+    /*.btn2:before {*/
+    /*    content: "";*/
+    /*    background: repeating-linear-gradient(to right, transparent 0, transparent 3px, gray 3px, red 10px);*/
+    /*    left: 105%;*/
+    /*    top: 87%;*/
+    /*    width: 6px;*/
+    /*    height: 78px;*/
+    /*    position: absolute;*/
+    /*    transform: rotateZ(138deg);*/
+    /*}*/
+}
     @media screen and (max-width: 570px) and
     (min-width: 200px) {
         .h1{
@@ -499,15 +505,15 @@ li>span:first-child{
         .slide {
             display: none;
         }
-        .btn:before {
-            content: "";
-            background: repeating-linear-gradient(to right, transparent 0, transparent 3px, gray 3px, red 10px);
-            left: 18%;
-            top: 100%;
-            width: 6px;
-            height: 40px;
-            position: absolute;
-        }
+        /*.btn:before {*/
+        /*    content: "";*/
+        /*    background: repeating-linear-gradient(to right, transparent 0, transparent 3px, gray 3px, red 10px);*/
+        /*    left: 18%;*/
+        /*    top: 100%;*/
+        /*    width: 6px;*/
+        /*    height: 40px;*/
+        /*    position: absolute;*/
+        /*}*/
         .banner {
             font-size: 52px;
         }
@@ -532,17 +538,16 @@ li>span:first-child{
             font-size: 18px;
         text-align: right;
         }
-        .btn2:before {
-            content: "";
-            background: repeating-linear-gradient(to right, transparent 0, transparent 3px, gray 3px, gray 10px);
-            left: 105%;
-            top: 84.5%;
-            width: 6px;
-            height: 78px;
-            position: absolute;
-            transform: rotateZ(138deg);
-        }
-    }
+        /*.btn2:before {*/
+        /*    content: "";*/
+        /*    background: repeating-linear-gradient(to right, transparent 0, transparent 3px, gray 3px, gray 10px);*/
+        /*    left: 105%;*/
+        /*    top: 84.5%;*/
+        /*    width: 6px;*/
+        /*    height: 78px;*/
+        /*    position: absolute;*/
+        /*    transform: rotateZ(138deg);*/
+        /*}*/
 }
 @media screen and (max-width: 420px) and
 (min-width: 200px) {
@@ -560,9 +565,9 @@ li>span:first-child{
         font-size: 14px;
         text-align: right;
     }
-    .btn2:before {
-        top: 81.5%;
-    }
+    /*.btn2:before {*/
+    /*    top: 81.5%;*/
+    /*}*/
 }
 @media screen and (max-width: 370px) and
 (min-width: 200px) {
@@ -570,10 +575,10 @@ li>span:first-child{
         font-size: 12px;
         text-align: right;
     }
-    .btn2:before {
-        top: 79%;
-        left: 110%;
-    }
+    /*.btn2:before {*/
+    /*    top: 79%;*/
+    /*    left: 110%;*/
+    /*}*/
     .flexNew{
         display: flex;
         justify-content: space-around;
