@@ -56,6 +56,7 @@ max-width: 98.5vw;
 }
 .imgBackground{
     background: linear-gradient(to top, #ffea85 0%, #ffea85 20%, white 100%);
+    border-radius: 20px;
 }
 .marginTop{
     margin-top: 140px;
@@ -571,6 +572,7 @@ li>span:first-child{
         font-size: 30px;
         text-align: center;
     }
+
     .banner_text2{
         font-size: 30px;
         width: 350px;
@@ -578,6 +580,14 @@ li>span:first-child{
     }
     .paddingNew{
         font-size: 12px;
+    }
+    .video-wrap {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        height: 100%;
     }
 }
 @media screen and (max-width: 435px) and
@@ -606,6 +616,9 @@ li>span:first-child{
 (min-width: 200px) {
     .h1 {
         font-size: 14px;
+    }
+    body {
+        max-width: 99.5vw;
     }
     h3 {
         font-size: 20px;
