@@ -102,14 +102,14 @@ max-width: 98.5vw;
     transform: translate(0px,120%);
     opacity: 0;
     transition: all 0.6s ease 0s;
-    font-size: 50px;
+    font-size: 45px;
     /*font-style: italic;*/
 }
 .banner_text2{
     transform: translate(0px,120%);
     opacity: 0;
     transition: all 0.8s ease 0s;
-    font-size: 50px;
+    font-size: 45px;
 }
 
 .banner_text1.full_active_text{
@@ -155,7 +155,7 @@ max-width: 98.5vw;
     transform: translate(0px,120%);
     opacity: 0;
     transition: all 0.4s ease 0s;
-    font-size: 50px;
+    font-size: 45px;
     /*font-style: italic;*/
     color: gray();
 
@@ -209,7 +209,7 @@ li>span{
 /*main*/
 /*Features*/
 .text{
-    font-size: 50px;
+    font-size: 40px;
     color: gray();
 }
 
